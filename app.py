@@ -5,6 +5,7 @@ model_name = "gpt2-large"
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
+# model
 def generate_description(notes):
     prompt = f"Write a product description based on the below information.\n\n{notes}\n\nDescription:"
     inputs = tokenizer.encode(prompt, return_tensors="pt", max_length=512, truncation=True)
@@ -12,6 +13,7 @@ def generate_description(notes):
     description = tokenizer.decode(outputs[0], skip_special_tokens=True)
     return description
 
+# Entry-point with Streamlit code
 def main():
     st.title("Product Description Generator")
     notes = st.text_area("Enter product information:")
