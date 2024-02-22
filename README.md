@@ -9,7 +9,6 @@ video
 text
 
 ## Architecture
-
 img
 
 ## Setup
