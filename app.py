@@ -23,5 +23,3 @@ def main():
 
 if __name__=="__main__":
     main()
-    # inp = input("Enter: ")
-    # print(generate_description(inp))
