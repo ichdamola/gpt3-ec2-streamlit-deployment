@@ -5,7 +5,6 @@ This repository enables easy deployment of OpenAI's GPT-3 on Amazon EC2, paired 
 video
 
 ## Project Workflow
-
 text
 
 ## Architecture
