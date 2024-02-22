@@ -33,7 +33,7 @@ To set up the GPT-3 deployment with Streamlit on Amazon EC2, follow the steps ou
 
 3. Execute the setup commands:
     ```bash
-    # streamlit run app.py
+    streamlit run app.py
     ```
 
 4. Follow additional instructions in the documentation to complete the setup.
