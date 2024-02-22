@@ -1,8 +1,12 @@
 # GPT-3 EC2 Streamlit App Deployment
-## View
+## User Interface:
 This repository facilitates the straightforward deployment of OpenAI's GPT-3 on Amazon EC2, complemented by an intuitive Streamlit app for a seamless user experience.
 
-![product description UI](https://drive.google.com/drive/folders/1mqc4-qiW1pQqV3eFX6FDFUbdOQ2PLz-m)
+![product-description-ui](https://github.com/ichdamola/gpt3-ec2-streamlit-deployment/assets/20647487/71aa613e-2ca7-430c-aa75-4e65aed00488)
+
+## Architecture
+
+![System Architecture](link_to_architecture_image)
 
 ## Demo
 
@@ -10,11 +14,8 @@ For a visual walkthrough of the deployment process, please refer to the [demonst
 
 ## Project Workflow
 
-Explore the project workflow by referring to the accompanying [documentation](link_to_documentation).
-
-## Architecture
-
-![System Architecture](link_to_architecture_image)
+Explore the project workflow by referring to the accompanying.
+![product-description-arch drawio](https://github.com/ichdamola/gpt3-ec2-streamlit-deployment/assets/20647487/9f809ebd-7858-47eb-8b70-549b42492b84)
 
 ## Setup
 
@@ -32,7 +33,7 @@ To set up the GPT-3 deployment with Streamlit on Amazon EC2, follow the steps ou
 
 3. Execute the setup commands:
     ```bash
-    # Add setup commands here
+    # streamlit run app.py
     ```
 
 4. Follow additional instructions in the documentation to complete the setup.
